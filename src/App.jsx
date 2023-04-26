@@ -6,6 +6,7 @@ import CountDown from './components/CountDown'
 import CleanUp from './components/CleanUp'
 import PreviewAvatar from './components/PreviewAvatar'
 import ChatApp from './components/ChatApp'
+import UseLayoutEffect from './components/UseLayoutEffect'
 
 function App() {
   const [show, setShow] = useState(false)
@@ -23,7 +24,9 @@ function App() {
 
       {/* {show && <PreviewAvatar/>} */}
 
-      {show && <ChatApp/>} 
+      {/* {show && <ChatApp/>}  */}
+
+      {show && <UseLayoutEffect/>} 
       
     </div>
 
